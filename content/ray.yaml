@@ -23,13 +23,13 @@ inbounds:
   protocol: vmess
   settings:
     clients:
-    - id: UUID
+    - id: UUIDfalse
   streamSettings:
     network: ws
     wsSettings:
       path: /UUID-vm
   sniffing:
-    enabled: true
+    enabled: false
     destOverride:
     - http
     - tls
